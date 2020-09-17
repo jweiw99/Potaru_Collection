@@ -1,0 +1,366 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="my.edu.utar.potaru"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml
+10    <!--
+11         io.flutter.app.FlutterApplication is an android.app.Application that
+12         calls FlutterMain.startInitialization(this); in its onCreate method.
+13         In most cases you can leave this as-is, but you if you want to provide
+14         additional functionality it is fine to subclass or reimplement
+15         FlutterApplication and put your custom class here.
+16    -->
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:7:5-67
+17-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:7:22-64
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:8:5-66
+18-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:8:22-63
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:9:5-80
+19-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:9:22-78
+20    <uses-permission android:name="android.permission.WAKE_LOCK" />
+20-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:10:5-67
+20-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:10:22-65
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21-->[:image_picker] D:\Documents\Documents\Other\Git\Potaru\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:7:5-80
+21-->[:image_picker] D:\Documents\Documents\Other\Git\Potaru\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:7:22-77
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+22-->[:image_picker] D:\Documents\Documents\Other\Git\Potaru\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:8:5-81
+22-->[:image_picker] D:\Documents\Documents\Other\Git\Potaru\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:8:22-78
+23    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+23-->[:wallpaper_manager] D:\Documents\Documents\Other\Git\Potaru\build\wallpaper_manager\intermediates\library_manifest\release\AndroidManifest.xml:7:5-72
+23-->[:wallpaper_manager] D:\Documents\Documents\Other\Git\Potaru\build\wallpaper_manager\intermediates\library_manifest\release\AndroidManifest.xml:7:22-69
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:26:5-79
+24-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:26:22-76
+25
+26    <application
+26-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:11:5-28:19
+27        android:name="my.edu.utar.potaru.PotaruApplication"
+27-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:11:18-51
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\b6252bb7f30c7dceb20e97dfa6dfae00\core-1.2.0\AndroidManifest.xml:24:18-86
+29        android:icon="@mipmap/launcher_icon"
+29-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:11:75-111
+30        android:label="Potaru"
+30-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:11:52-74
+31        android:usesCleartextTraffic="true" >
+31-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:11:112-147
+32        <activity
+32-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:12:9-17:20
+33            android:name="my.edu.utar.potaru.MainActivity"
+33-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:12:19-47
+34            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+34-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:12:114-264
+35            android:hardwareAccelerated="true"
+35-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:12:265-299
+36            android:launchMode="singleTop"
+36-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:12:48-78
+37            android:theme="@style/LaunchTheme"
+37-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:12:79-113
+38            android:windowSoftInputMode="adjustResize" >
+38-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:12:300-342
+39            <intent-filter>
+39-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:13:13-16:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:14:17-68
+40-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:14:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:15:17-76
+42-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:15:27-74
+43            </intent-filter>
+44        </activity>
+45        <!--
+46             Don't delete the meta-data below.
+47             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+48        -->
+49        <meta-data
+49-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:20:9-72
+50            android:name="flutterEmbedding"
+50-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:20:20-51
+51            android:value="2" />
+51-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:20:52-69
+52
+53        <service
+53-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:21:9-168
+54            android:name="io.flutter.plugins.androidalarmmanager.AlarmService"
+54-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:21:18-84
+55            android:exported="false"
+55-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:21:142-166
+56            android:permission="android.permission.BIND_JOB_SERVICE" />
+56-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:21:85-141
+57
+58        <receiver
+58-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:22:9-122
+59            android:name="io.flutter.plugins.androidalarmmanager.AlarmBroadcastReceiver"
+59-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:22:19-95
+60            android:exported="false" />
+60-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:22:96-120
+61        <receiver
+61-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:23:9-27:20
+62            android:name="io.flutter.plugins.androidalarmmanager.RebootBroadcastReceiver"
+62-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:23:19-96
+63            android:enabled="false" >
+63-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:23:97-120
+64            <intent-filter>
+64-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:24:13-26:29
+65                <action android:name="android.intent.action.BOOT_COMPLETED" />
+65-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:25:17-86
+65-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:25:25-76
+66            </intent-filter>
+67        </receiver>
+68
+69        <provider
+69-->[:flutter_email_sender] D:\Documents\Documents\Other\Git\Potaru\build\flutter_email_sender\intermediates\library_manifest\release\AndroidManifest.xml:8:9-16:20
+70            android:name="com.sidlatau.flutteremailsender.FlutterEmailSenderFileProvider"
+70-->[:flutter_email_sender] D:\Documents\Documents\Other\Git\Potaru\build\flutter_email_sender\intermediates\library_manifest\release\AndroidManifest.xml:9:13-90
+71            android:authorities="my.edu.utar.potaru.file_provider"
+71-->[:flutter_email_sender] D:\Documents\Documents\Other\Git\Potaru\build\flutter_email_sender\intermediates\library_manifest\release\AndroidManifest.xml:10:13-65
+72            android:exported="false"
+72-->[:flutter_email_sender] D:\Documents\Documents\Other\Git\Potaru\build\flutter_email_sender\intermediates\library_manifest\release\AndroidManifest.xml:11:13-37
+73            android:grantUriPermissions="true" >
+73-->[:flutter_email_sender] D:\Documents\Documents\Other\Git\Potaru\build\flutter_email_sender\intermediates\library_manifest\release\AndroidManifest.xml:12:13-47
+74            <meta-data
+74-->[:flutter_email_sender] D:\Documents\Documents\Other\Git\Potaru\build\flutter_email_sender\intermediates\library_manifest\release\AndroidManifest.xml:13:13-15:61
+75                android:name="android.support.FILE_PROVIDER_PATHS"
+75-->[:flutter_email_sender] D:\Documents\Documents\Other\Git\Potaru\build\flutter_email_sender\intermediates\library_manifest\release\AndroidManifest.xml:14:17-67
+76                android:resource="@xml/shared_file_paths" />
+76-->[:flutter_email_sender] D:\Documents\Documents\Other\Git\Potaru\build\flutter_email_sender\intermediates\library_manifest\release\AndroidManifest.xml:15:17-58
+77        </provider>
+78        <provider
+78-->[:image_picker] D:\Documents\Documents\Other\Git\Potaru\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:11:9-19:20
+79            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+79-->[:image_picker] D:\Documents\Documents\Other\Git\Potaru\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:12:13-82
+80            android:authorities="my.edu.utar.potaru.flutter.image_provider"
+80-->[:image_picker] D:\Documents\Documents\Other\Git\Potaru\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-74
+81            android:exported="false"
+81-->[:image_picker] D:\Documents\Documents\Other\Git\Potaru\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:14:13-37
+82            android:grantUriPermissions="true" >
+82-->[:image_picker] D:\Documents\Documents\Other\Git\Potaru\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:15:13-47
+83            <meta-data
+83-->[:flutter_email_sender] D:\Documents\Documents\Other\Git\Potaru\build\flutter_email_sender\intermediates\library_manifest\release\AndroidManifest.xml:13:13-15:61
+84                android:name="android.support.FILE_PROVIDER_PATHS"
+84-->[:flutter_email_sender] D:\Documents\Documents\Other\Git\Potaru\build\flutter_email_sender\intermediates\library_manifest\release\AndroidManifest.xml:14:17-67
+85                android:resource="@xml/flutter_image_picker_file_paths" />
+85-->[:flutter_email_sender] D:\Documents\Documents\Other\Git\Potaru\build\flutter_email_sender\intermediates\library_manifest\release\AndroidManifest.xml:15:17-58
+86        </provider>
+87
+88        <activity
+88-->[:url_launcher] D:\Documents\Documents\Other\Git\Potaru\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:8:9-11:74
+89            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+89-->[:url_launcher] D:\Documents\Documents\Other\Git\Potaru\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:9:13-74
+90            android:exported="false"
+90-->[:url_launcher] D:\Documents\Documents\Other\Git\Potaru\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:10:13-37
+91            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+91-->[:url_launcher] D:\Documents\Documents\Other\Git\Potaru\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:11:13-71
+92        <activity
+92-->[:wallpaper_manager] D:\Documents\Documents\Other\Git\Potaru\build\wallpaper_manager\intermediates\library_manifest\release\AndroidManifest.xml:11:9-16:58
+93            android:name="com.mulgundkar.wallpaper_manager.EmbeddingV1Activity"
+93-->[:wallpaper_manager] D:\Documents\Documents\Other\Git\Potaru\build\wallpaper_manager\intermediates\library_manifest\release\AndroidManifest.xml:12:13-80
+94            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale"
+94-->[:wallpaper_manager] D:\Documents\Documents\Other\Git\Potaru\build\wallpaper_manager\intermediates\library_manifest\release\AndroidManifest.xml:13:13-116
+95            android:hardwareAccelerated="true"
+95-->[:wallpaper_manager] D:\Documents\Documents\Other\Git\Potaru\build\wallpaper_manager\intermediates\library_manifest\release\AndroidManifest.xml:14:13-47
+96            android:theme="@style/LaunchTheme"
+96-->[:wallpaper_manager] D:\Documents\Documents\Other\Git\Potaru\build\wallpaper_manager\intermediates\library_manifest\release\AndroidManifest.xml:15:13-47
+97            android:windowSoftInputMode="adjustResize" />
+97-->[:wallpaper_manager] D:\Documents\Documents\Other\Git\Potaru\build\wallpaper_manager\intermediates\library_manifest\release\AndroidManifest.xml:16:13-55
+98
+99        <provider
+99-->[:flutter_webview_plugin] D:\Documents\Documents\Other\Git\Potaru\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:9:9-18:20
+100            android:name="androidx.core.content.FileProvider"
+100-->[:flutter_webview_plugin] D:\Documents\Documents\Other\Git\Potaru\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:10:13-62
+101            android:authorities="my.edu.utar.potaru.fileprovider"
+101-->[:flutter_webview_plugin] D:\Documents\Documents\Other\Git\Potaru\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:11:13-64
+102            android:exported="false"
+102-->[:flutter_webview_plugin] D:\Documents\Documents\Other\Git\Potaru\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:12:13-37
+103            android:grantUriPermissions="true" >
+103-->[:flutter_webview_plugin] D:\Documents\Documents\Other\Git\Potaru\build\flutter_webview_plugin\intermediates\library_manifest\release\AndroidManifest.xml:13:13-47
+104            <meta-data
+104-->[:flutter_email_sender] D:\Documents\Documents\Other\Git\Potaru\build\flutter_email_sender\intermediates\library_manifest\release\AndroidManifest.xml:13:13-15:61
+105                android:name="android.support.FILE_PROVIDER_PATHS"
+105-->[:flutter_email_sender] D:\Documents\Documents\Other\Git\Potaru\build\flutter_email_sender\intermediates\library_manifest\release\AndroidManifest.xml:14:17-67
+106                android:resource="@xml/filepaths" />
+106-->[:flutter_email_sender] D:\Documents\Documents\Other\Git\Potaru\build\flutter_email_sender\intermediates\library_manifest\release\AndroidManifest.xml:15:17-58
+107        </provider>
+108        <provider
+108-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:30:9-36:35
+109            android:name="androidx.work.impl.WorkManagerInitializer"
+109-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:31:13-69
+110            android:authorities="my.edu.utar.potaru.workmanager-init"
+110-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:32:13-68
+111            android:directBootAware="false"
+111-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:33:13-44
+112            android:exported="false"
+112-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:34:13-37
+113            android:multiprocess="true" />
+113-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:35:13-40
+114
+115        <service
+115-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:38:9-43:35
+116            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+116-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:39:13-88
+117            android:directBootAware="false"
+117-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:40:13-44
+118            android:enabled="@bool/enable_system_alarm_service_default"
+118-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:41:13-72
+119            android:exported="false" />
+119-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:42:13-37
+120        <service
+120-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:44:9-50:35
+121            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+121-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:45:13-84
+122            android:directBootAware="false"
+122-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:46:13-44
+123            android:enabled="@bool/enable_system_job_service_default"
+123-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:47:13-70
+124            android:exported="true"
+124-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:48:13-36
+125            android:permission="android.permission.BIND_JOB_SERVICE" />
+125-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:49:13-69
+126
+127        <receiver
+127-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:52:9-57:35
+128            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+128-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:53:13-88
+129            android:directBootAware="false"
+129-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:54:13-44
+130            android:enabled="true"
+130-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:55:13-35
+131            android:exported="false" />
+131-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:56:13-37
+132        <receiver
+132-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:58:9-68:20
+133            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+133-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:59:13-106
+134            android:directBootAware="false"
+134-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:60:13-44
+135            android:enabled="false"
+135-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:61:13-36
+136            android:exported="false" >
+136-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:62:13-37
+137            <intent-filter>
+137-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:64:13-67:29
+138                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+138-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:65:17-87
+138-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:65:25-84
+139                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+139-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:66:17-90
+139-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:66:25-87
+140            </intent-filter>
+141        </receiver>
+142        <receiver
+142-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:69:9-79:20
+143            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+143-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:70:13-104
+144            android:directBootAware="false"
+144-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:71:13-44
+145            android:enabled="false"
+145-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:72:13-36
+146            android:exported="false" >
+146-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:73:13-37
+147            <intent-filter>
+147-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:75:13-78:29
+148                <action android:name="android.intent.action.BATTERY_OKAY" />
+148-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:76:17-77
+148-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:76:25-74
+149                <action android:name="android.intent.action.BATTERY_LOW" />
+149-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:77:17-76
+149-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:77:25-73
+150            </intent-filter>
+151        </receiver>
+152        <receiver
+152-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:80:9-90:20
+153            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+153-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:81:13-104
+154            android:directBootAware="false"
+154-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:82:13-44
+155            android:enabled="false"
+155-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:83:13-36
+156            android:exported="false" >
+156-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:84:13-37
+157            <intent-filter>
+157-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:86:13-89:29
+158                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+158-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:87:17-83
+158-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:87:25-80
+159                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+159-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:88:17-82
+159-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:88:25-79
+160            </intent-filter>
+161        </receiver>
+162        <receiver
+162-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:91:9-100:20
+163            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+163-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:92:13-103
+164            android:directBootAware="false"
+164-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:93:13-44
+165            android:enabled="false"
+165-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:94:13-36
+166            android:exported="false" >
+166-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:95:13-37
+167            <intent-filter>
+167-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:97:13-99:29
+168                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+168-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:98:17-79
+168-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:98:25-76
+169            </intent-filter>
+170        </receiver>
+171        <receiver
+171-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:101:9-112:20
+172            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+172-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:102:13-88
+173            android:directBootAware="false"
+173-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:103:13-44
+174            android:enabled="false"
+174-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:104:13-36
+175            android:exported="false" >
+175-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:105:13-37
+176            <intent-filter>
+176-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:107:13-111:29
+177                <action android:name="android.intent.action.BOOT_COMPLETED" />
+177-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:25:17-86
+177-->D:\Documents\Documents\Other\Git\Potaru\android\app\src\main\AndroidManifest.xml:25:25-76
+178                <action android:name="android.intent.action.TIME_SET" />
+178-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:109:17-73
+178-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:109:25-70
+179                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+179-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:110:17-81
+179-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:110:25-78
+180            </intent-filter>
+181        </receiver>
+182        <receiver
+182-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:113:9-122:20
+183            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+183-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:114:13-99
+184            android:directBootAware="false"
+184-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:115:13-44
+185            android:enabled="@bool/enable_system_alarm_service_default"
+185-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:116:13-72
+186            android:exported="false" >
+186-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:117:13-37
+187            <intent-filter>
+187-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:119:13-121:29
+188                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+188-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:120:17-98
+188-->[androidx.work:work-runtime:2.2.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\66a225bc6d60d474383c0296887598e5\work-runtime-2.2.0\AndroidManifest.xml:120:25-95
+189            </intent-filter>
+190        </receiver>
+191
+192        <service
+192-->[androidx.room:room-runtime:2.1.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\6755ddc25dac8aaf072873c1ca3399d9\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
+193            android:name="androidx.room.MultiInstanceInvalidationService"
+193-->[androidx.room:room-runtime:2.1.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\6755ddc25dac8aaf072873c1ca3399d9\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
+194            android:exported="false" />
+194-->[androidx.room:room-runtime:2.1.0] C:\Users\Lelouch\.gradle\caches\transforms-2\files-2.1\6755ddc25dac8aaf072873c1ca3399d9\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
+195    </application>
+196
+197</manifest>
