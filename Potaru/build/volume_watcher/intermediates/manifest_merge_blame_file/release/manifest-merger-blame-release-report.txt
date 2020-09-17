@@ -1,0 +1,8 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.magugi.volume_watcher" >
+4
+5    <uses-sdk android:minSdkVersion="16" />
+5-->C:\flutter\.pub-cache\git\volume_watcher-cc55a293992ff2b9a2c791d785c2ae5619113b43\android\src\main\AndroidManifest.xml
+6
+7</manifest>
