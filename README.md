@@ -7,7 +7,7 @@ Use Dart, NodeJS (REST API), Python and flutter framework to create mobile appli
 
 ## Preview
 
-![](screenshot/Preview.gif)
+<img src="screenshot/Preview.gif" width="250">
 
 ## Poster
 
