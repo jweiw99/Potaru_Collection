@@ -5,6 +5,10 @@ Use Dart, NodeJS (REST API), Python and flutter framework to create mobile appli
 >SDK 1.12.13+hotfix.9  
 >Dart 2.7.2  
 
+## Showcase
+
+![](screenshot/Preview.gif)
+
 ## Poster
 
 ![](screenshot/poster.jpg)
